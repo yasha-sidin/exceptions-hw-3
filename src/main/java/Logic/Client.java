@@ -27,4 +27,8 @@ public class Client {
             }
         }
     }
+
+    public static void closeClient() {
+        scanner.close();
+    }
 }
